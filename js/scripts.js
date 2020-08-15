@@ -121,3 +121,11 @@ $(document).ready(function () {
       $("#overlay7").hide();
     });
 });
+
+function message(event) {
+  var data = document.getElementById("val");
+  var name = document.getElementById("name").value;
+  data = name + ", we have received your message. Thank you for contacting us";
+  alert(data);
+  event.preventDefault();
+}

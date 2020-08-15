@@ -2,13 +2,16 @@
   background-image: url(../assets/backgrounds/h_img.jpg);
   background-repeat: no-repeat;
   height: 100vh;
-
+  font-style: italic;
+  font-weight: bold;
+  font-family: "Baloo Tamma 2", cursive;
+  font-family: "Lobster", cursive;
   background-size: cover;
 }
 .intro {
   text-align: center;
   color: white;
-  padding-top: 20%;
+  padding-top: 15%;
 }
 html {
   scroll-behavior: smooth;
@@ -20,7 +23,7 @@ p {
 }
 .mouse-click {
   text-align: center;
-  padding: 40px;
+  padding: 20px;
 }
 .about-us {
   text-align: center;
